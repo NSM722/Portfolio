@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;600;700;900&display=swap"
+    rel="stylesheet">
+
+  <!-- My CSS stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- NavBar-->
+  <header>
+    <nav class="nav">
+      <h1 class="nav-title">Natalie .S. Mbatha</h1>
+      <ul class="nav-list">
+        <li class="nav-list-item"><a href="#about">About Me</a></li>
+        <li class="nav-list-item"><a href="#projects">My Work</a></li>
+        <li class="nav-list-item"><a href="#footer">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- Intro -->
+    <section class="intro">
+      <div>
+        <h2 class="intro-title">Hi, I am a Web Developer experienced in both Frontend and Backend technologies. </h2>
+        <p>
+          <span class="pill">HTML</span>
+          <span class="pill">CSS</span>
+          <span class="pill">JavaScript</span>
+          <span class="pill">Python</span>
+          <span class="pill">Bootstrap</span>
+          <span class="pill">Flask</span>
+          <span class="pill">Git</span>
+          <span class="pill">Github</span>
+          <span class="pill">React</span>
+          <span class="pill">Kanban</span>
+          <span class="pill">Trello</span>
+        </p>
+      </div>
+      <img class="intro-image" src="./images/Me.png" alt="my profile image">
+    </section>
+    <hr>
+
+    <!-- About Me -->
+    <section class="about" id="about">
+      <h3 class="about-title">About Me</h3>
+      <p>My day to day involves constant practice in building responsive websites and applications,
+        paying close attention to enhancing user experience and maintaining backend support(whenever required).
+        I implement tools such as trello boards or kanban which assist in my projects organization.
+        I am always curious to learn new stacks, collaborating with other developers and
+        following best practices for web perfomance and accessibility.
+        Aside from work, I am an avid sports fan particularly football, athletics, basketball and enjoy learning new
+        languages.
+      </p>
+    </section>
+    <hr>
+
+    <!-- My Work/Projects -->
+    <section class="projects" id="projects">
+      <h3 class="projects-title">My Work</h3>
+      <p>These are some of the projects I've worked on, click on them to explore.
+        You can also check out more of my work on
+        <a class="accent-link" href="https://codepen.io/NatalieSM/pens/public"
+          target="_blank"><strong>Codepen</strong></a>
+        and <a class="accent-link" href="https://github.com/NSM722" target="_blank"><strong>Github</strong></a>
+      </p>
+      <div class="images-container">
+        <div class="image-div">
+          <a class="project-link" href="https://nsm722.github.io/Unit-Converter/" target="_blank">
+            <img class="project-img" src="images/converter.png" alt="unit/metric converter">
+            <div class="project-description">Unit converter</div>
+          </a>
+        </div>
+        <div class="image-div">
+          <a class="project-link" href="https://nsm-flask-app.herokuapp.com/" target="_blank">
+            <img class="project-img" src="images/linguaphiles.png" alt="Language app login page">
+            <div class="project-description">Flask App</div>
+          </a>
+        </div>
+        <div class="image-div">
+          <a class="project-link" href="https://github.com/NSM722/BikEEE" target="_blank">
+            <img class="project-img" src="images/bikeee.png" alt="React Web app home page">
+            <div class="project-description">React App</div>
+          </a>
+        </div>
+        <div class="image-div">
+          <a class="project-link" href="https://nsm722.github.io/Home.html" target="_blank">
+            <img class="project-img" src="images/coffee_shop.png" alt="coffee shop homepage">
+            <div class="project-description">Coffee Shop Website</div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer and Social Media links-->
+  <footer id="footer">
+    <div class="footer-icons">
+      <a href="https://www.linkedin.com/in/natalie-mbatha/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://codepen.io/NatalieSM/pens/public" target="_blank"><i class="fa-brands fa-codepen"></i></a>
+      <a href="https://github.com/NSM722" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="mailto:nataliembatha@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+    </div>
+    <small>&copy; Created by NSM 2022</small>
+  </footer>
+</body>
+
+</html>

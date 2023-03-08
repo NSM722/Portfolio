@@ -147,6 +147,7 @@ nav a:focus {
 
 .nav-list {
   margin-top: 0;
+  padding-left: 0;
 }
 
 .nav-list-item {
